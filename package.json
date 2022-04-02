@@ -1,0 +1,34 @@
+{
+  "name": "chum-jar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "chum-jar",
+  "author": "Carson Page",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "gatsby": "^4.11.1",
+    "gatsby-plugin-mdx": "^3.11.1",
+    "gatsby-plugin-sitemap": "^5.11.1",
+    "gatsby-source-filesystem": "^4.11.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@types/react": "^17.0.43",
+    "@types/react-dom": "^17.0.14",
+    "typescript": "^4.6.3"
+  }
+}
