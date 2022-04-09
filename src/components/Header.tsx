@@ -42,7 +42,7 @@ function Header(props) {
             <div className={menuClasses}>
                 <NavLink to="/">Home</NavLink>
                 <NavLink to="/rules">Server Rules</NavLink>
-                <NavLink to="/discord">Discord</NavLink>
+                <ExternalNavLink href="/discord">Discord</ExternalNavLink>
                 <ExternalNavLink href="steam://connect/gs01.chumjar.net:28015">Play Now!</ExternalNavLink>
             </div>
         </nav>
